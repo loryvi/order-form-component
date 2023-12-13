@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap");
+body {
+  background: linear-gradient(124deg, #fffdf4 -2.84%, #e2dbff 100.44%), #4d2e8e;
+  font-family: "Prompt", sans-serif;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.container .top {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-top h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0;
+  align-self: flex-end;
+  line-height: 34px;
+  letter-spacing: 1.5px;
+}
+
+.sub-top span {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.product-item {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 17em;
+  margin: 1em 0 1em 0;
+}
+
+.product-item {
+  background-image: url("assets/image.png");
+}
+
+.product-size {
+  align-self: flex-end;
+  text-align: center;
+}
+
+.product-size select {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.24);
+  border-style: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.5em;
+  margin: 0.5em 0 0.5em 0.8em;
+  cursor: pointer;
+  font-family: "Prompt";
+}
+
+.product-qty {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  align-self: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.24);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0.5em 0.8em 0.5em 0;
+  cursor: pointer;
+}
+
+.product-qty button {
+  border-style: none;
+  font-size: 1.5rem;
+  background: #fff;
+}
+
+.item .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em 0 1em 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.item .description p {
+  font-size: 0.875rem;
+  color: #585858;
+}
+
+.item .description span {
+  color: #281f17;
+  font-size: 1.2rem;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.subtotal-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #4d2dce;
+  color: #fff;
+}
+
+.subtotal-btn button {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.24);
+  border-style: none;
+  font-family: "Prompt";
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  gap: 8px;
+}
+
+.subtotal-btn .price p {
+  font-size: 0.625rem;
+}
+
+.subtotal-btn .price span {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

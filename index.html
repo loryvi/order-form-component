@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container" role="main">
+        <div role="header" class="top">
+          <div>
+            <span class="material-symbols-outlined" style="font-size: 2rem">
+              arrow_left_alt
+            </span>
+          </div>
+          <div class="sub-top">
+            <h1>Cart</h1>
+            <span>2 items</span>
+          </div>
+        </div>
+        <!-- item  -->
+        <div class="item">
+          <div class="product-item">
+            <div class="product-size">
+              <select name="product-size" id="product-size"></select>
+            </div>
+            <div class="product-qty">
+              <button id="plus-btn">+</button>
+              <span id="qty"></span>
+              <button id="minus-btn">-</button>
+            </div>
+          </div>
+          <div class="description">
+            <p>Adidas- ZX 2k BOOST 2.0</p>
+            <span>PHP 3,000.00</span>
+          </div>
+        </div>
+
+        <div class="subtotal-btn">
+          <div class="price">
+            <p>Subtotal</p>
+            <span>PHP7,000.00</span>
+          </div>
+          <button>
+            <span>CHECK OUT</span>
+            <span class="material-symbols-outlined"> arrow_right_alt </span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
