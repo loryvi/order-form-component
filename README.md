@@ -12,7 +12,6 @@ This is a solution to the HTML/CSS/JS Challenge of FWDP.
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
@@ -43,10 +42,10 @@ A component of a Checkout Card Component, found the UI from Figma Community by S
 
 ### Continued development
 
-:bulb: Animation for the Checkout Button
-:bulb: Add more product items using API
-:bulb: Responsive Mobile Page
-:bulb: Make it a reusable component!
+- :bulb: Animation for the Checkout Button
+- :bulb: Add more product items using API
+- :bulb: Responsive Mobile Page
+- :bulb: Make it a reusable component!
 
 ### Useful resources
 
