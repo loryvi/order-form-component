@@ -3,6 +3,7 @@ body {
   background: linear-gradient(124deg, #fffdf4 -2.84%, #e2dbff 100.44%), #4d2e8e;
   font-family: "Prompt", sans-serif;
 }
+
 section {
   display: flex;
   align-items: center;
@@ -156,4 +157,17 @@ p {
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 1em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
